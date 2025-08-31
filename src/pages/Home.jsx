@@ -10,7 +10,6 @@ export default function Home() {
 
   return (
     <div className="flex flex-col md:flex-row min-h-screen">
-      {/* Chap tomondagi profil header */}
       <header className="w-full md:w-1/4 bg-base-100 shadow-sm flex flex-col items-center p-6">
         <div className="flex flex-col items-center space-y-3">
           <img
@@ -37,7 +36,6 @@ export default function Home() {
         {error && toast.error(error)}
       </header>
 
-      {/* O‘ng tomondagi userlar ro‘yxati */}
       <main className="flex-1 bg-gray-50 p-6 overflow-y-auto">
         <h2 className="text-2xl font-bold mb-6">Users</h2>
 
